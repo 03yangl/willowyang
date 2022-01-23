@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*nav bar
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF9A76;
+    position: sticky;
+    top: 0;
+}
+*/
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: monospace;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #FFEADB;
+    padding: 8px 40px;
+}
+.navbar ul li a:hover{
+    color: black;
+}
+
+/*About*/
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;    
+}
+#pic{
+    display: flex;
+    background-color: #FFEADB;
+}
+
+#pic img{
+    width: auto;
+    height: 80vh;
+    margin: 50px 50px;
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 50px;
+}
+
+#intro h1{
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #679B9B;
+    margin-bottom: 30px;
+}
+
+#intro p1{
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    color:black;
+}
+
+#btn{
+    padding: 10px 10px;
+    background-color: #679B9B;
+    border: 1px solid white;
+    border-radius: 1vh;
+    outline: none;
+    transition: ease;
+    margin-top: 30px;
+    font-family: monospace;
+}
+
+.icon {
+    color: #000;
+}
+
+#intro h2{
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #679B9B;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#intro p2{
+    font-family: monospace;
+    font-size: 1rem;
+    font-weight: lighter;
+    color:black;
+}
+
+
+/*Personal Projects*/
+#projects{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #FFEADB;
+}
+
+#projects h1{
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #679B9B;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+.gallery img{
+    width: 300px;
+    height: 300px;
+}

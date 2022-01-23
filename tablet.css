@@ -1,0 +1,9 @@
+/*About*/
+#pic{
+    flex-direction: column;
+    align-content: center;
+}
+#pic img{
+    width: 475px;
+    height: 475px;
+}
